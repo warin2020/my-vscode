@@ -1,0 +1,29 @@
+.layout {
+  font-family: system-ui;
+  width: 100vw;
+  height: 100vh;
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: rgb(60, 60, 60);
+  display: flex;
+
+  .sider {
+    flex-shrink: 0;
+    width: 300px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(40, 40, 40);
+
+    .file-tree {
+      color: rgb(200, 200, 200);
+    }
+  }
+
+  .code-editor {
+    flex: 1;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    padding: 12px;
+  }
+}
